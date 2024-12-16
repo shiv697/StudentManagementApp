@@ -11,6 +11,8 @@ public interface StudentService {
 	public Student getSingleStudent(int id);
 	public List<Student> updateStudentfees(int studentid, float ammount);
 	public void removeDelete(int id);
+	//public List<Student>getBatches();
+	public List<Student> updateStudentBatch(int studentid, String batchNumber);
 	
 
 }

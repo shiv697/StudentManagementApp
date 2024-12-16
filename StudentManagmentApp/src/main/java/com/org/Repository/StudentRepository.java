@@ -10,4 +10,5 @@ import com.org.model.Student;
 @Repository
 public interface StudentRepository  extends CrudRepository<Student, Integer>{
 public List<Student> findAllByBatchNumber(String batchNumber);
+
 }
